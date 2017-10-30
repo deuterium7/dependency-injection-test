@@ -1,0 +1,27 @@
+{
+  "name": "zabornyi/dependency-injection-test",
+  "description": "Some test Dependency Injection",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Zabornyi",
+      "email": "post0778@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexanderZabornyi\\DependencyInjectionTest\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexanderZabornyi\\DependencyInjectionTest\\Tests\\": "tests"
+    }
+  }
+}
